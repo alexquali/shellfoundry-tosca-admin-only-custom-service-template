@@ -17,12 +17,17 @@ node_types:
   vendor.resource.{{cookiecutter.model_name}}:
     derived_from: cloudshell.nodes.CloudService
     #properties:
-    #  my_property:
-    #    type: string          # optional values: string, integer, float, boolean, cloudshell.datatypes.Password
-    #    default: fast
-    #    description: Some attribute description
-    #    constraints:
-    #      - valid_values: [fast, slow]
+    #  User:
+    #    description: User with administrative privileges
+    #    type: string
+    #    tags: [configuration, setting]
+    #  Password:
+    #    type: cloudshell.datatypes.Password
+    #    tags: [configuration, setting]
+    #  Address:
+    #    description: Address for remote access
+    #    type: string
+    #    tags: [configuration, setting]
     #  Service Categories:
     #    type: list
     #    default: [My Category 1, My Category 2]    
