@@ -20,14 +20,14 @@ node_types:
     #  User:
     #    description: User with administrative privileges
     #    type: string
-    #    tags: [configuration, setting]
+    #    tags: [user_input]
     #  Password:
     #    type: cloudshell.datatypes.Password
-    #    tags: [configuration, setting]
+    #    tags: [user_input]
     #  Address:
     #    description: Address for remote access
     #    type: string
-    #    tags: [configuration, setting]
+    #    tags: [user_input]
     #  Service Categories:
     #    type: list
     #    default: [My Category 1, My Category 2]    
